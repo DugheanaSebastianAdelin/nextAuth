@@ -52,9 +52,6 @@ const authOptions: NextAuthOptions = {
 ],
 pages: {
     signIn: "/auth/signin",
-   
-    
-
  },  
 
   secret: process.env.JWT_SECRET,
