@@ -56,17 +56,7 @@ pages: {
     
 
  },  
-// 
-//   callbacks: {
-//     jwt(params) {
-//       // update token
-//       if (params.user?.role) {
-//         params.token.role = params.user.role;
-//       }
-//       // return final_token
-//       return params.token;
-//     },
-//   },
+
   secret: process.env.JWT_SECRET,
 };
 
