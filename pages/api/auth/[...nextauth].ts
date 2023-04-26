@@ -43,7 +43,6 @@ const authOptions: NextAuthOptions = {
         return {
             id: user.id,
             email: user.email,
-          role: "admin",
         };
       },
       
